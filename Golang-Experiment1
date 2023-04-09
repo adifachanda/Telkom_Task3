@@ -21,9 +21,7 @@ func findCompany(array [10]string) {
 func main() {
 	var largeCompanyName [10]string
 	for i := 0; i < len(largeCompanyName); i++ {
-		if i == 9{
-		  largeCompanyName[i] = company  
-		}
+		largeCompanyName[i] = company  
 	}
 	findCompany(largeCompanyName)
 }
